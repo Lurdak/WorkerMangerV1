@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WorkerMAnger</string>
+    <string name="add_worker_btn">עובד חדש</string>
+    <string name="Worker_list_btn">רשימת העובדים</string>
+    <string name="Accept_btn">שמור</string>
+    <string name="cancle_btn">בטול</string>
+    <string name="WorkerManger_btn">ניהול עובדים</string>
+    <string name="CompanyManger_btn">ניהול חברות</string>
+    <string name="WorkonManger">ניהול שעות עובדים</string>
+    <string name="add_company_btn">חברה חדשה</string>
+    <string name="company_list_btn">רשימת החברות</string>
+</resources>

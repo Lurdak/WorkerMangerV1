@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/phone_lbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/worker_phone_lbl"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/phone_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/idLbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/worker_id_lbl"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/idTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/nameLbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/worker_name_lbl"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/nametxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="30sp" />
+
+
+
+            <Button
+                android:id="@+id/AcceptBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SaveNewWorker"
+                android:text="@string/Accept_btn" />
+
+            <Button
+                android:id="@+id/cancleBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cancle_btn" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

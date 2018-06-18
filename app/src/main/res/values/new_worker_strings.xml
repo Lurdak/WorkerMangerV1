@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="worker_name_lbl">שם פרטי :</string>
+    <string name="worker_id_lbl">מספר תעודת זהות :</string>
+    <string name="worker_phone_lbl">מספר טלפון :</string>
+    <string name="worker_email_lbl">אימיל :</string>
+    <string name="worker_birthday_lbl">תאריך לידה :</string>
+    <string name="worker_picture_lbl">תמונה</string>
+    <string name="worker_family_lbl">שם משפחה :</string>
+    <string name="worker_start_date_lbl">תאריך תחילת עבודה :</string>
+    <string name="worker_id_img_lbl">תמונת תעודת זהות :</string>
+    <string name="worker_101_lbl">תמונת טופס 101 :</string>
+    <string name="worker_gender_lbl">מגדר :</string>
+</resources>
